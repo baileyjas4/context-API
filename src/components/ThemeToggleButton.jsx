@@ -9,7 +9,7 @@ function ThemeToggleButton() {
       className="theme-toggle-button"
       title={`Switch to ${theme === THEMES.LIGHT ? 'dark' : 'light'} theme`}
     >
-      {theme === THEMES.LIGHT ? '🌙' : '☀️'}
+      {theme === THEMES.LIGHT ? 'moon' : 'sun'}
       <span className="theme-label">
         {theme === THEMES.LIGHT ? 'Dark' : 'Light'} Mode
       </span>
